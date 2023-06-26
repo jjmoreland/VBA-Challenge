@@ -1,7 +1,7 @@
 # VBA-Challenge
 VBA Script for stock data
 
-My VBA code was modeled after lessons learned in the ASU Bootcamp, June 25, 2023. Specifically, the lesson activity "Credit Card" provided the code to compare "stock" tickers and return the next ticker if the previous ticker was not equal.
+My VBA code was modeled after lessons learned in the ASU Bootcamp, June 25, 2023. Specifically, the lesson activity "Credit Card" provided the code so that "stock" tickers could be compared and return the next ticker if the previous ticker was not equal.
   
     If ws.Cells(i, 1).Value <> ws.Cells(i + 1, 1).Value Then
 
